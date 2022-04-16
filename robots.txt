@@ -1,1 +1,1 @@
-Sitemap: https://jyjylee.github.io/jylee/sitemap.xml
+Sitemap: /jylee/sitemap.xml
