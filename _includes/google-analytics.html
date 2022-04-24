@@ -1,16 +1,9 @@
-<!-- the google_analytics_id gets auto inserted from the config file -->
-
-{% if site.google_analytics %}
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J3WTY29EV2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '{{site.google_analytics}}');
-  gtag('config', '{{ site.analytics.google.measurement_id }}');
+  gtag('config', 'G-J3WTY29EV2');
 </script>
-
-{% endif %}
