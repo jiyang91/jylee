@@ -58,6 +58,9 @@ show_tags: true
 
 # Add your Google Analytics ID here if you have one and want to use it
 google_analytics: 
+  provider: "google-gtag"
+  google:
+    measurement_id: "G-J3WTY29EV2"
 
 exclude:
   - docker-compose.yml
